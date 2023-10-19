@@ -26,3 +26,8 @@ font-family: 'Playfair Display', serif;*/
 .active{
   border-bottom: 2px solid black;
 }
+.navbar-brand{
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 2px;
+}
