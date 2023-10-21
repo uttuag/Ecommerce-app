@@ -34,13 +34,13 @@ font-family: 'Playfair Display', serif;*/
 /*footer*/
 .footer{
   color: white;
-  padding: 25px;
-  background: red;
+  padding: 12px;
+  background:rgb(20, 18, 18);
 }
 
 .footer a {
   text-decoration: none;
-  color: white;
+  color: rgb(128, 221, 230);
   padding: 10px;
 }
 .footer a:hover{
@@ -76,4 +76,13 @@ font-family: 'Playfair Display', serif;*/
 .pnf-btn:hover {
   background-color: black;
   color: white;
+}
+
+/* register*/
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
 }

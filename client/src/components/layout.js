@@ -11,12 +11,18 @@ const Layout = ({ children, title, description, keywords, author }) => {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
         <meta name="author" content={author} />
-        <title>Title</title>
+        <title>{title}</title>
       </Helmet>
       <Header />
       <main style={{ minHeight: "80vh" }}>{children}</main>
       <Footer />
     </div>
   );
+};
+Layout.defaultProps = {
+  title: "MERNCart app-shop now",
+  description: "Mern Stack Project",
+  keywords: "Mern,React,Node,Mongodb",
+  author: "Utkarsh",
 };
 export default Layout;
