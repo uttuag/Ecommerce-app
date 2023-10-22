@@ -78,11 +78,11 @@ font-family: 'Playfair Display', serif;*/
   color: white;
 }
 
-/* register*/
+/* register */
 .register{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
-  flex-direction: column;
+  height: 15vh;
+  flex-direction: column; 
 }
